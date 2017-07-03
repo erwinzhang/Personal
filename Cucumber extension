@@ -1,0 +1,10 @@
+# Record the issues and resolutions when using cucumber
+# BTW, we extend our cucumber feature.
+
+1. YARD-Cucumber
+   Summary: Use it to documentation our cucumber features.
+   Dependency: gherkin, Cucumber, multi_json, multi_test
+   Usage: Find it in github: https://github.com/burtlo/yard-cucumber
+   
+2.    
+   

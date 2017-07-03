@@ -1,0 +1,44 @@
+#Learning notes for git.
+
+git init
+config:
+  System: /etc/gitconfig   git config --system
+  User:   ~/.gitconfig     git config --global username.email "xxx@xxx"
+  Project: my-project/.git/config    git config
+
+
+git commit -m "description"
+
+git log
+git log -n number 
+git log --since #date
+git log --util=2015-05-14
+git log --author="xx"
+git log --grep="xxx" #pattern match
+
+git rm
+git add
+git commit -m "description"
+git diff --stage
+git diff --color-words xxx.txt
+git mv  #rename
+
+git commit -a #add and commit at a time
+
+git checkout -- xxx.txt # check out
+git checkout SHA -- xxx.txt #revert to a old version by SHA
+
+git revert SHA
+
+
+git reset HEAD xx.txt #undo changes from staging
+git reset --soft SHA #changes to wording dir and staging
+git reset --mixed SHA #changes to working dir
+git reset --hard SHA #force changes to workding and staging
+
+git commit --amend -m "xxx"
+
+git clean -n #Would not remove files
+git clean -f #remove files
+
+.gitignore #ignore files
